@@ -62,3 +62,10 @@ button {
 button:hover {
   background-color: #a32834;
 }
+
+@media (max-width: 600px) {
+  textarea,
+  button {
+    width: 90vw;
+  }
+}
